@@ -1,0 +1,38 @@
+#wrapper{
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.header{
+    background-color: #141f40;
+    height: 100px;
+
+}
+
+.left{
+    background-color: #80bfa8;
+    height:250px;
+    width:150px;
+    float: left;
+}
+
+.right{
+    background-color: #8c2727;
+    height:250px;
+    width:250px;
+    float: left;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.footer{
+    background-color:#d98d30;
+    width: 400px;
+    height: 100px;
+
+}
