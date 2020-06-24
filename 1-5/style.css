@@ -1,0 +1,73 @@
+#wrapper{
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.header{
+    width: 400px;
+    height:100px;
+    background-color: #141f40;
+    position: relative;
+}
+
+
+.headerBox{
+    width: 160px;
+    height:60px;
+    background-color: white;
+    position: absolute;
+    top:20px;
+    right:20px;
+    
+}
+
+.redBox{
+    width: 40px;
+    height: 40px;
+    margin:10px 0 10px 10px;
+    background-color: #a9004b;
+    float: left;
+  
+}
+
+.main-contents{
+    width: 400px;
+    height: 250px;
+}
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right-contents{
+    width:250px;
+    height: 250px;
+    padding: 40px 60px 40px 40px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.orangeBox{
+    width:150px;
+    height:50px;
+    background-color: #ff863f;
+    margin-bottom:10px ;
+    border: solid 5px white;
+
+}
+
+.footer{
+   width: 400px;
+   height: 100px; 
+   background-color: #d98d30;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}

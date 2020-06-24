@@ -1,0 +1,50 @@
+@media screen and (max-width: 479px){
+
+    #wrapper{
+        width: 200px;
+
+     }
+
+      .header{
+         width: 200px;
+         height:220px;
+     }
+
+     .headerBox{
+        width: 60px;
+        height:180px;
+        background-color: white;
+        position: absolute;
+        top:20px;
+        right:70px;
+         
+     }
+
+     .left{
+         width: 200px;
+         height: 120px;
+         float: none;
+     }
+     
+     .main-contents {
+        width: 200px;
+        height: 330px;
+    }
+
+   .right-contents{
+        width: 200px;
+        height: 210px;
+        padding: 20px 30px 20px 30px;
+        background-color: #8c2727;
+        float: none;
+    }
+    
+    .orangeBox{
+        width: 140px;
+    }
+
+    .footer{
+        width: 200px;
+    }
+
+}
