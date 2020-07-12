@@ -1,17 +1,12 @@
 <?php
-// session_start();
 require_once('db_connect.php');
-
 if (isset($_POST["signUp"])) {
    if (isset($_POST['name'], $_POST['password']) && $_POST['name'] !== '' && $_POST['password'] !== ''){
         $name = $_POST['name'];
         $password = $_POST["password"];
         $password_hash = password_hash($password, PASSWORD_DEFAULT);
-
-
-    $sql = "INSERT INTO users (name, password) VALUES (:name, :password)"; 
-    $pdo = db_connect();
-    var_dump($pdo);
+        $sql = "INSERT INTO users (name, password) VALUES (:name, :password)"; 
+        $pdo = db_connect();
     try {
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':name', $name);
