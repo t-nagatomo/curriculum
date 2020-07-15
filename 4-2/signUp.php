@@ -3,7 +3,7 @@ require_once('db_connect.php');
 $err = array();
 if (isset($_POST["signUp"])) {
     if (!empty($_POST)) {
-    
+
         // ログイン名が入力されていない場合の処理
         if (empty($_POST["name"])) {
             $err['name'] = "名前が未入力です。";
@@ -47,12 +47,16 @@ if (isset($_POST["signUp"])) {
     </div>
     <?php
     echo "<ul>";
-    foreach($err as $message){
+    foreach($err as $err_message){
         echo "<li>"; 
-        echo $message;
+        echo $err_message;
         echo "</li>"; 
     }
     echo "</ul>";
+    if(isset($message)){
+        echo $message;
+
+    }
     ?>
     <form method="POST" action="">
         <input type="text" name="name" id="name" placeholder="ユーザー名" class="inputhight" value="<?php if (!empty($_POST['name']) ){ echo $_POST['name']; } ?>">
