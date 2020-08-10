@@ -1,0 +1,219 @@
+.rows{
+    width: 60%;
+    margin: 50px auto 0 auto;
+}
+
+/* .aaaa{
+    border-top: 1px solid #dee2e6;
+} */
+
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+
+.txtarea{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+}
+
+.name{
+    display: inline-block;
+}
+
+.time{
+    display: inline-block;
+}
+
+.coment{
+    display: inline-block;
+    
+}
+
+.delete_bottom{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.form-control {
+    width: 90%;
+}
+
+.form-controls{
+    display: block;
+    width: 100%;
+    height: calc(2.19rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .9rem;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-controller{
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    margin-right: 15px;
+    color:#FFFFFF;;
+}
+
+.tweet-btn{
+    color: #FFFFFF;
+    background-color: #2D88FF;
+    border: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 30px;
+}
+
+.formlayout{
+    width: 70%;
+    margin: 35px auto;
+}
+
+.txtarea{
+    background-color: #242526;
+    color: #ffffff;
+}
+
+textarea{
+    font-size: 16px;
+    max-width: 670px;
+    width: 100%;
+    min-height: 99px;
+    padding: 6px 6px;
+    resize: none;
+    border-radius: 10px;
+    background-color: #3A3B3C;
+    
+}
+
+textarea::placeholder{
+    color: #ACA08C;
+}
+
+.textareas{
+    margin-bottom: 5px;
+}
+
+.red a{
+    color: red;
+}
+
+ul{
+    color: red;
+}
+
+body{
+    background-color: #18191A;
+}
+
+
+.formitem{
+    color: #FFFFFF;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.formitem a{
+    color: #ffffff;
+}
+
+.live{
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+.img{
+    display: inline-block;
+}
+.activity{
+    display: inline-block;
+}
+
+
+.containerBox{
+    background-color: #242526;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+.card-body{
+    background-color: #242526;
+    color: #FFFFFF;
+}
+
+.color{
+    color: #FFFFFF;
+
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.loginbtn{
+    color: #fff;
+    background-color: #3490dc;
+    border-color: #3490dc;
+    border: 1px solid transparent;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+
+h1{
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    color:#747587;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .form-controller{
+        width: 75%;
+     }
+    
+    .tweet-btn{
+        width: 75px;
+     }
+}
+
+@media screen and (max-width: 479px) {
+    .txtarea {
+        width: 92%;
+        padding: 23px;
+     }
+
+     .form-controller{
+        width: 100%;
+     }
+
+
+     .tweet-btn{
+        margin-top: 30px;
+     }
+
+     .col-md-10{
+         text-align: center;
+     }
+}
